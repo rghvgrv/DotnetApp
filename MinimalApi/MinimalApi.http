@@ -1,0 +1,5 @@
+﻿@MinimalApi_HostAddress = https://localhost:7019
+
+GET {{MinimalApi_HostAddress}}/message
+
+###
