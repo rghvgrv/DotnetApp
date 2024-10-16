@@ -30,4 +30,17 @@ namespace DotnetWithMongo.Services
         public async Task RemoveAsync(string id) =>
             await _booksCollection.DeleteOneAsync(x => x.Id == id);
     }
+
+    public abstract class A
+    {
+        public abstract void MakeSound();
+    }
+
+    public class B : A
+    {
+        public override void MakeSound()
+        {
+
+        }
+    }
 }

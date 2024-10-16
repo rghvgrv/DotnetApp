@@ -1,6 +1,16 @@
 using DotnetWithMongo.Model;
 using DotnetWithMongo.Services;
 
+var b = new B();
+try
+{
+   b.MakeSound();
+}
+catch(Exception ex)
+{
+
+}
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
