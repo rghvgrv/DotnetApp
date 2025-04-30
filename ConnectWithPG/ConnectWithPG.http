@@ -1,0 +1,6 @@
+@ConnectWithPG_HostAddress = http://localhost:5134
+
+GET {{ConnectWithPG_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
