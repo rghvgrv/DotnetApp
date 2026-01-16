@@ -1,0 +1,6 @@
+@Dotnet_Reddis_HostAddress = http://localhost:5115
+
+GET {{Dotnet_Reddis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
